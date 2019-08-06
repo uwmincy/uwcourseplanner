@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Planner from './scenes/Planner';
 
-function App() {
-  return (
-    <div>
-      Hi
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Planner />
+      </div >
+    );
+  }
 }
 
 export default App;
