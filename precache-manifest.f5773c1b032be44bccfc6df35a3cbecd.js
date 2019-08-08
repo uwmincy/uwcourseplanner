@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cf67484af585e626d54860d6b1c4da75",
+    "revision": "cb477be8dfff8cd05ada1524b41b0803",
     "url": "/uwcourseplanner/index.html"
   },
   {
