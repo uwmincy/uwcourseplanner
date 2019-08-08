@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a29c6ef8873a9ca72f66b36ec6f96ada",
+    "revision": "cf67484af585e626d54860d6b1c4da75",
     "url": "/uwcourseplanner/index.html"
   },
   {
-    "revision": "15e78289d7f6a65ee07f",
+    "revision": "cea152ac45c53d47d196",
     "url": "/uwcourseplanner/static/css/main.735832d4.chunk.css"
   },
   {
-    "revision": "a5fe971ffc9069a9ad51",
-    "url": "/uwcourseplanner/static/js/2.18680c38.chunk.js"
+    "revision": "f29eb70f4ddc8250addf",
+    "url": "/uwcourseplanner/static/js/2.5a2c36b9.chunk.js"
   },
   {
-    "revision": "15e78289d7f6a65ee07f",
-    "url": "/uwcourseplanner/static/js/main.01f7f9f7.chunk.js"
+    "revision": "cea152ac45c53d47d196",
+    "url": "/uwcourseplanner/static/js/main.d9a7ddf1.chunk.js"
   },
   {
     "revision": "97c3cb6bbe517f197a21",
