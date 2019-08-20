@@ -43,21 +43,24 @@ class Planner extends Component {
         const courseCartCopy = this.state.courseCart.slice();
         courseCartCopy.splice(index, 1);
         this.setState({courseCart: courseCartCopy});
-        console.log(this.state.courseCart);
     }
 
     handleChangeSubject(subject) {
         this.setState({
-            subject: subject,
-            course: this.state.courseQueue.course
-        })
+            courseQueue: {
+                subject: subject,
+                course: this.state.courseQueue.course
+            }
+        });
     }
 
     handleChangeCourse(course) {
         this.setState({
-            subject: this.state.courseQueue.subject,
-            course: course
-        })
+            courseQueue: {
+                subject: this.state.courseQueue.subject,
+                course: course
+            }
+        });
     }
 
     render() {
@@ -67,11 +70,12 @@ class Planner extends Component {
                     courseCart={this.state.courseCart} 
                     courseQueue={this.state.courseQueue}
                     onClickRemove={this.handleClickRemove} 
-                    onChangeSubject={this.handleChangeSubject} 
-                    onChangeCourse={this.handleChangeCourse} 
+                    onChangeSubject={(event) => this.handleChangeSubject(event.target.value)} 
+                    onChangeCourse={(event) => this.handleChangeCourse(event.target.value)} 
                     onClickAdd={this.handleClickAdd} 
                 />
                 {console.log(this.state.courseCart)}
+                {console.log(this.state.courseQueue)}
             </div>
         );
     }
