@@ -67,15 +67,17 @@ class Planner extends Component {
     }
 
     handleClickAdd() {
-        const courseCartCopy = this.state.courseCart.slice();
-        courseCartCopy.push(this.state.courseQueue);
-        this.setState({
-            courseCart: courseCartCopy,
-            courseQueue: {
-                subject: "",
-                course: ""
-            }
-        });
+        if (this.state.courseQueue.subject !== "" && this.state.courseQueue.course !== "") {
+            const courseCartCopy = this.state.courseCart.slice();
+            courseCartCopy.push(this.state.courseQueue);
+            this.setState({
+                courseCart: courseCartCopy,
+                courseQueue: {
+                    subject: "",
+                    course: ""
+                }
+            });
+        }
     }
 
     render() {
