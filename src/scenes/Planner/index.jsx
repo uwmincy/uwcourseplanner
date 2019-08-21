@@ -36,7 +36,7 @@ class Planner extends Component {
         this.handleClickRemove = this.handleClickRemove.bind(this);
         this.handleChangeSubject = this.handleChangeSubject.bind(this);
         this.handleChangeCourse = this.handleChangeCourse.bind(this);
-        //this.handleClickAdd = this.handleClickAdd.bind(this);
+        this.handleClickAdd = this.handleClickAdd.bind(this);
     }
 
     handleClickRemove(index) {
@@ -59,6 +59,18 @@ class Planner extends Component {
             courseQueue: {
                 subject: this.state.courseQueue.subject,
                 course: course
+            }
+        });
+    }
+
+    handleClickAdd() {
+        const courseCartCopy = this.state.courseCart.slice();
+        courseCartCopy.push(this.state.courseQueue);
+        this.setState({
+            courseCart: courseCartCopy,
+            courseQueue: {
+                subject: "",
+                course: ""
             }
         });
     }
