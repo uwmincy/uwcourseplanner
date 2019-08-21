@@ -3,7 +3,7 @@ import PropType from 'prop-types';
 import RemoveButton from './components/RemoveButton';
 import CourseLabel from '../../../../../../components/CourseLabel';
 
-const RemoveCourse = ({ subject, course, onClickRemove }) => (
+const RemoveCourse = ({ subject, course, onClickRemove, index }) => (
     <div>
         <CourseLabel 
             subject={subject}
@@ -11,6 +11,7 @@ const RemoveCourse = ({ subject, course, onClickRemove }) => (
         />
         <RemoveButton 
             onClickRemove={onClickRemove}
+            index={index}
         />
     </div>
 );

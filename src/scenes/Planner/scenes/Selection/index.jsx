@@ -12,6 +12,7 @@ const Selection = ({ courseCart, courseQueue, onClickRemove, onChangeSubject, on
                         subject={cartItem.subject}
                         course={cartItem.course}
                         onClickRemove={onClickRemove}
+                        index={index}
                     />
                 );
             }

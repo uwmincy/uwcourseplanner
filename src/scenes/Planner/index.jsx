@@ -40,9 +40,12 @@ class Planner extends Component {
     }
 
     handleClickRemove(index) {
-        const courseCartCopy = this.state.courseCart.slice();
-        courseCartCopy.splice(index, 1);
-        this.setState({courseCart: courseCartCopy});
+        if (index !== "") {
+            const courseCartCopy = this.state.courseCart.slice();
+            courseCartCopy.splice(index, 1);
+            this.setState({ courseCart: courseCartCopy });
+        }
+        console.log(index);
     }
 
     handleChangeSubject(subject) {
@@ -81,7 +84,7 @@ class Planner extends Component {
                 <Selection 
                     courseCart={this.state.courseCart} 
                     courseQueue={this.state.courseQueue}
-                    onClickRemove={this.handleClickRemove} 
+                    onClickRemove={(event) => this.handleClickRemove(event.target.id)} 
                     onChangeSubject={(event) => this.handleChangeSubject(event.target.value)} 
                     onChangeCourse={(event) => this.handleChangeCourse(event.target.value)} 
                     onClickAdd={this.handleClickAdd} 
