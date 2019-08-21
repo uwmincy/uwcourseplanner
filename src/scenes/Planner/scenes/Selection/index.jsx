@@ -4,7 +4,7 @@ import AddCourse from './components/AddCourse';
 import RemoveCourse from './components/RemoveCourse';
 
 const Selection = ({ courseCart, courseQueue, onClickRemove, onChangeSubject, onChangeCourse, onClickAdd }) => (
-    <div>
+    <div className="selection">
         {courseCart.map (
             (cartItem, index) => {
                 return (
