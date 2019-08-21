@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/uwcourseplanner/static/css/main.735832d4.chunk.css",
-    "main.js": "/uwcourseplanner/static/js/main.d9a7ddf1.chunk.js",
-    "main.js.map": "/uwcourseplanner/static/js/main.d9a7ddf1.chunk.js.map",
+    "main.css": "/uwcourseplanner/static/css/main.55d06579.chunk.css",
+    "main.js": "/uwcourseplanner/static/js/main.e9f03c09.chunk.js",
+    "main.js.map": "/uwcourseplanner/static/js/main.e9f03c09.chunk.js.map",
     "runtime~main.js": "/uwcourseplanner/static/js/runtime~main.1b598bd8.js",
     "runtime~main.js.map": "/uwcourseplanner/static/js/runtime~main.1b598bd8.js.map",
-    "static/js/2.5a2c36b9.chunk.js": "/uwcourseplanner/static/js/2.5a2c36b9.chunk.js",
-    "static/js/2.5a2c36b9.chunk.js.map": "/uwcourseplanner/static/js/2.5a2c36b9.chunk.js.map",
+    "static/js/2.43647ac4.chunk.js": "/uwcourseplanner/static/js/2.43647ac4.chunk.js",
+    "static/js/2.43647ac4.chunk.js.map": "/uwcourseplanner/static/js/2.43647ac4.chunk.js.map",
     "index.html": "/uwcourseplanner/index.html",
-    "precache-manifest.f5773c1b032be44bccfc6df35a3cbecd.js": "/uwcourseplanner/precache-manifest.f5773c1b032be44bccfc6df35a3cbecd.js",
+    "precache-manifest.b9750f2ee9ed566e52f0a3eab7c2f026.js": "/uwcourseplanner/precache-manifest.b9750f2ee9ed566e52f0a3eab7c2f026.js",
     "service-worker.js": "/uwcourseplanner/service-worker.js",
-    "static/css/main.735832d4.chunk.css.map": "/uwcourseplanner/static/css/main.735832d4.chunk.css.map"
+    "static/css/main.55d06579.chunk.css.map": "/uwcourseplanner/static/css/main.55d06579.chunk.css.map"
   }
 }
