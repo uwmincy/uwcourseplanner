@@ -7,9 +7,7 @@ const IconButtonx = ({ children, ...rest }) => (
         className="icon-button"
         {...rest}
     >
-        <svg className="svg" focusable="false" viewBox="0 0 24 24" aria-hidden="true" role="presentation">
-            {children}
-        </svg>
+        {children}
     </IconButton>
 );
 
