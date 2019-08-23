@@ -9,6 +9,7 @@ import AddCourse from './scenes/Selection/components/AddCourse';
 import RemoveCourse from './scenes/Selection/components/RemoveCourse';
 
 import Selection from './scenes/Selection';
+import Selection from './scenes/View';
 
 import Schedule from '../../components/Schedule'
 
@@ -119,7 +120,7 @@ class Planner extends Component {
                 {console.log(this.state.courseCart)}
                 {console.log(this.state.courseQueue)}
 
-                <Schedule events={this.state.events} />
+                <View events={this.state.events} />
             </div>
         );
     }
