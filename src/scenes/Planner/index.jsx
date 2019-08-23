@@ -9,7 +9,7 @@ import AddCourse from './scenes/Selection/components/AddCourse';
 import RemoveCourse from './scenes/Selection/components/RemoveCourse';
 
 import Selection from './scenes/Selection';
-import Selection from './scenes/View';
+import View from './scenes/View';
 
 import Schedule from '../../components/Schedule'
 
