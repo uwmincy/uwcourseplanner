@@ -10,9 +10,33 @@ import RemoveCourse from './scenes/Selection/components/RemoveCourse';
 
 import Selection from './scenes/Selection';
 
+import Schedule from '../../components/Schedule'
+
 class Planner extends Component {
     constructor(props) {
         super(props);
+        const now = new Date();
+        const events = [
+          {
+              id: 0,
+              title: 'All Day Event very long title',
+              allDay: true,
+              start: new Date(2019, 6, 0),
+              end: new Date(2019, 6, 1),
+          },
+          {
+              id: 1,
+              title: 'Long Event',
+              start: new Date(2019, 3, 7),
+              end: new Date(2019, 3, 10),
+          },
+          {
+              id: 2,
+              title: 'Right now Time Event',
+              start: now,
+              end: now,
+          },
+        ]
         this.state = {
             courseCart: [
                 {
@@ -31,7 +55,8 @@ class Planner extends Component {
             courseQueue: {
                 subject: "",
                 course: ""
-            }
+            },
+            events: events
         };
         this.handleClickRemove = this.handleClickRemove.bind(this);
         this.handleChangeSubject = this.handleChangeSubject.bind(this);
@@ -93,6 +118,8 @@ class Planner extends Component {
                 />
                 {console.log(this.state.courseCart)}
                 {console.log(this.state.courseQueue)}
+
+                <Schedule events={this.state.events} />
             </div>
         );
     }
