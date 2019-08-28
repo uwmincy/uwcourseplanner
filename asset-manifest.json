@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/uwcourseplanner/static/css/main.e72a901d.chunk.css",
+    "main.css": "/uwcourseplanner/static/css/main.356b075f.chunk.css",
     "main.js": "/uwcourseplanner/static/js/main.e68d87b0.chunk.js",
     "main.js.map": "/uwcourseplanner/static/js/main.e68d87b0.chunk.js.map",
     "runtime~main.js": "/uwcourseplanner/static/js/runtime~main.1b598bd8.js",
@@ -9,9 +9,9 @@
     "static/js/2.bc7b4f1b.chunk.js": "/uwcourseplanner/static/js/2.bc7b4f1b.chunk.js",
     "static/js/2.bc7b4f1b.chunk.js.map": "/uwcourseplanner/static/js/2.bc7b4f1b.chunk.js.map",
     "index.html": "/uwcourseplanner/index.html",
-    "precache-manifest.927b66841b3157fcec9b5c9cb43e6e4a.js": "/uwcourseplanner/precache-manifest.927b66841b3157fcec9b5c9cb43e6e4a.js",
+    "precache-manifest.9736efa27ad973c3bd7ed8532598e0c4.js": "/uwcourseplanner/precache-manifest.9736efa27ad973c3bd7ed8532598e0c4.js",
     "service-worker.js": "/uwcourseplanner/service-worker.js",
     "static/css/2.48adc591.chunk.css.map": "/uwcourseplanner/static/css/2.48adc591.chunk.css.map",
-    "static/css/main.e72a901d.chunk.css.map": "/uwcourseplanner/static/css/main.e72a901d.chunk.css.map"
+    "static/css/main.356b075f.chunk.css.map": "/uwcourseplanner/static/css/main.356b075f.chunk.css.map"
   }
 }
