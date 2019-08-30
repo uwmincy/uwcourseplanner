@@ -1,0 +1,24 @@
+branch-defaults:
+  default:
+    environment: scheduler-dev
+    group_suffix: null
+deploy:
+  artifact: target/scheduler-build-1.0-SNAPSHOT.jar
+environment-defaults:
+  scheduler-dev:
+    branch: null
+    repository: null
+global:
+  application_name: scheduler
+  branch: null
+  default_ec2_keyname: aws-eb
+  default_platform: Java 8
+  default_region: us-east-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  repository: null
+  sc: null
+  workspace_type: Application
