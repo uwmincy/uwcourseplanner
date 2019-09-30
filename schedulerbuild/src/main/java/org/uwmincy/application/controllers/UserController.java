@@ -53,10 +53,7 @@ public class UserController {
                 Class.forName("com.mysql.jdbc.Driver");
 
                 //make sure to seperate this from the source code when made public...
-                Connection con= DriverManager.getConnection(
-                        "jdbc:mysql://uwmincytest.csw1ycb5tovh.us-east-2.rds.amazonaws.com:3306/uwmincy",
-                        "uwmincy",
-                        "uwmincy123");
+                Connection con = DBConnector.getRemoteConnection();
 
                 Statement stmt=con.createStatement();
                 ResultSet rs=stmt.executeQuery("select * from logins where idlogins = '" + body.getUser().getUsername()+"';");
@@ -102,10 +99,7 @@ public class UserController {
                 Class.forName("com.mysql.jdbc.Driver");
 
                 //make sure to seperate this from the source code when made public...
-                Connection con= DriverManager.getConnection(
-                        "jdbc:mysql://uwmincytest.csw1ycb5tovh.us-east-2.rds.amazonaws.com:3306/uwmincy",
-                        "uwmincy",
-                        "uwmincy123");
+                Connection con = DBConnector.getRemoteConnection();
 
                 Statement stmt=con.createStatement();
                 ResultSet rs=stmt.executeQuery("select * from logins where idlogins = '" + body.getUser().getUsername()+"';");
