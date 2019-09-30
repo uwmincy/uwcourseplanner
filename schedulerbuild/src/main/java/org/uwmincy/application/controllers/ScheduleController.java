@@ -1,17 +1,17 @@
-package org.uwmincy.application.json;
+package org.uwmincy.application.controllers;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.uwmincy.application.json.model.Schedule;
+import org.uwmincy.application.json.model.schedule.Schedule;
 
 import static org.springframework.web.bind.annotation.RequestMethod.GET;
 
 //Rest Controller annotations
 @RestController
 @RequestMapping(value="/application", method=GET)
-public class ScheduleJsonController {
+public class ScheduleController {
 
     public static ObjectMapper objectMapper = new ObjectMapper();
 

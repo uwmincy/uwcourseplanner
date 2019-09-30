@@ -1,4 +1,4 @@
-package org.uwmincy.application.json.model;
+package org.uwmincy.application.json.model.schedule;
 public class Date
 {
     private String  end_date;

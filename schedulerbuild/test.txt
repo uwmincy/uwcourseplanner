@@ -1,1 +1,1 @@
-curl --header "Content-Type: application/json"  --request GET  --data @C:\Users\fight\Downloads\Sample_Input.json --verbose http://scheduler-dev2.us-east-1.elasticbeanstalk.com/application/schedulejson
+curl --header "Content-Type: application/json"  --request GET  --data @Sample_Input3.json --verbose http://localhost:5000/user/login
