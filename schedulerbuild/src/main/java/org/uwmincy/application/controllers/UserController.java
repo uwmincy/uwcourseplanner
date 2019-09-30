@@ -103,7 +103,7 @@ public class UserController {
 
                 //make sure to seperate this from the source code when made public...
                 Connection con= DriverManager.getConnection(
-                        "jdbc:mysql://uwmincytest.csw1ycb5tovh.us-east-2.rds.amazonaws.com:3306/uwmincy",
+                        "jdbc:mysql://uwmincy-test.cjyriwvxpzt6.us-east-1.rds.amazonaws.com:3306/uwmincy",
                         "uwmincy",
                         "uwmincy123");
 
