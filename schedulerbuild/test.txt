@@ -1,1 +1,4 @@
-curl --header "Content-Type: application/json"  --request GET  --data @Sample_Input3.json --verbose http://localhost:5000/user/login
+
+curl --header "Content-Type: application/json"  --request GET  --data @Sample_Input3.json --verbose http://scheduler-dev2.us-east-1.elasticbeanstalk.com/user/login
+
+curl --header "Content-Type: application/json"  --request POST  --data @Sample_Input2.json --verbose http://scheduler-dev2.us-east-1.elasticbeanstalk.com/user/signup
